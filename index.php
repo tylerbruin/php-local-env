@@ -1,12 +1,16 @@
 <?php
 
+// !
+// ! PHP Script to fetch webpage plus its assets and store as a local directory for editing or achriving.
+// ! Additional page urls are replaced with getPage.php to fetch on request as desired. (not fully functional)
+// !
+
 // Log page load time
 date_default_timezone_set("Pacific/Auckland");
 echo "LOG: loaded at " . date('d-m-Y h:i:s A') . "<br><br>";
 
 // Set domain URL To fetch later
-// $domain = 'https://www.comcom.govt.nz';
-$domain = 'https://leaguefuel.netlify.app/';
+$domain = 'https://watercooler.netlify.app/';
 $dirName = "dist";
 
 

@@ -1,5 +1,8 @@
 <?php
 
+// ! getPage.php is a secondary script used to fetch additional pages and its assets post using the index.php script.
+
+
 // Log page load time
 date_default_timezone_set("Pacific/Auckland");
 echo "LOG: loaded at " . date('d-m-Y h:i:s A') . "<br><br>";
